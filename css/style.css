@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Lato&family=League+Spartan:wght@300&family=Poppins:wght@500&display=swap');
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+body {
+font-family: 'Fredoka',sans-serif;
+font-size: 15px
+color: #FAF1E6;
+background: #FAF1E6;
+padding: 20px;
+}
+
+h1{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FAF1E6;
+}
+
+h2, h3{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+a{
+	text-decoration: none;
+}
+
+
+a: hover {
+	color: #FAF1E6; 
+	font-weight: 300;
+	text-decoration: none;
+	}
+
